@@ -15,7 +15,7 @@ public class RubyController : MonoBehaviour
     void Update()
     {
         // Creating the two vareiables that use the pre built axes
-        float horitzontal = Input.GetAxis("Horitzantal");
+        float horitzontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
         //create the movement vector
